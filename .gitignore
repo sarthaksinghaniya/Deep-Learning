@@ -29,9 +29,7 @@ wheels/
 *.egg
 MANIFEST
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb
+
 
 # PyCharm
 .idea/
