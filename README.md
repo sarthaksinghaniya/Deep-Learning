@@ -8,6 +8,17 @@
 
 This repository documents my learning progression through Deep Learning concepts using Python, TensorFlow/Keras, and Jupyter Notebooks in PyCharm.
 
+## 📁 Project Structure
+
+```
+Deep-Learning/
+├── 📓 notebooks/          # Jupyter notebooks with exercises and implementations
+├── 📊 data/              # Dataset files used in the notebooks
+├── ⚙️ scripts/           # Python utility scripts
+├── 📋 requirements.txt   # Project dependencies
+└── 📖 README.md          # This file
+```
+
 ## 📚 Learning Source
 
 ![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)
@@ -38,13 +49,56 @@ I'm following structured hands-on exercises from **Kaggle's Deep Learning Course
 - Understanding model weights & biases
 - Working with TensorFlow tensors
 - Data visualization with Matplotlib
+- Binary classification with sigmoid activation
+- Batch normalization and dropout techniques
+- Handling underfitting and overfitting
 
 ### 🎯 Key Exercises
 - **Red Wine Quality Analysis**: Working with real-world datasets
 - **Linear Models**: Building basic neural network architectures
 - **Tensor Operations**: Understanding TensorFlow tensors vs NumPy arrays
 - **Model Visualization**: Plotting model predictions and parameters
-- 
+- **Binary Classification**: Implementing classification models with proper activation functions
+- **Regularization Techniques**: Applying dropout and batch normalization
+- **Stochastic Gradient Descent**: Understanding optimization algorithms
+
+### 📓 Available Notebooks
+- `Binary-Classification.ipynb` - Binary classification with batch normalization and dropout
+- `Deep.ipynb` - Introduction to deep learning with linear models
+- `Deeplearninto.ipynb` - Deep learning with multiple hidden layers
+- `Dropout_and_batch_normalization.ipynb` - Regularization techniques
+- `UnderfittingAndOver.ipynb` - Understanding bias-variance tradeoff
+- `stochacist_dataa.ipynb` - Stochastic gradient descent and data preprocessing
+
+### 📊 Available Datasets
+- `red-wine.csv` - Wine quality dataset for regression
+- `concrete.csv` - Concrete compressive strength dataset
+- `fuel.csv` - Fuel efficiency dataset
+- `abalone.csv` - Abalone age prediction dataset
+- `candy.csv` - Candy ranking dataset
+- `forestfires.csv` - Forest fire prediction dataset
+- `ion.csv` - Ionosphere dataset for classification
+
+## 🚀 Quick Start
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sarthaksinghaniya/Deep-Learning.git
+   cd Deep-Learning
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Launch Jupyter Notebook**
+   ```bash
+   jupyter notebook
+   ```
+
+4. **Navigate to the `notebooks/` directory and start exploring!**
+
 ## 🌐 Connect With Me
 
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) **GitHub**: [sarthaksinghaniya](https://github.com/sarthaksinghaniya)  
@@ -61,6 +115,14 @@ I'm following structured hands-on exercises from **Kaggle's Deep Learning Course
 ## 📈 Progress Tracking
 
 This repository serves as a living documentation of my Deep Learning journey. Each commit represents new concepts learned and implemented.
+
+### 🔧 Recent Improvements
+- ✅ Fixed incomplete code in binary classification notebook
+- ✅ Resolved import errors and data path issues
+- ✅ Updated matplotlib style to use latest seaborn syntax
+- ✅ Organized project structure with proper directories
+- ✅ Created comprehensive requirements.txt file
+- ✅ Enhanced README with detailed project information
 
 ---
 
